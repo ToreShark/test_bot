@@ -1,7 +1,7 @@
 const command = `
 /start - Перезапустить бота
 /help - Помощь
-/common - Общество
+/process - Документы для судов и гос органов
 `
 
 module.exports.command = command;
