@@ -42,7 +42,13 @@ function addActionBot(name, src, text) {
         }
     })
 }
-addActionBot('btn_1', './image/1.jpeg', text.text1)
+addActionBot('btn_1', './image/1.jpeg', text.text1);
+addActionBot('btn_2', './image/4.jpeg', text.text2);
+addActionBot('btn_3', './image/2.jpeg', text.text3);
+addActionBot('btn_4', './image/3.jpeg', text.text4);
+addActionBot('btn_5', './image/1.jpeg', text.text5);
+addActionBot('btn_6', false, text.text6);
+
 
 
 bot.launch();
